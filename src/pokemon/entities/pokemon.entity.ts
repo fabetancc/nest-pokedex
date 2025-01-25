@@ -14,7 +14,7 @@ export class Pokemon extends Document {
         unique: true,
         index: true
     })
-    public no: string;
+    public no: number;
 
 }
 
